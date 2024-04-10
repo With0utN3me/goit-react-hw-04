@@ -1,13 +1,13 @@
 import './App.css'
 import { useState } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
-import SearchBar from './Search/SearchBar';
-import ImageGallery from './Gallery/ImageGallery';
-import Error from './Error/ErrorMessage';
+import SearchBar from './SearchBar/SearchBar';
+import ImageGallery from './ImageGallery/ImageGallery';
+import Error from './ErrorMessage/ErrorMessage';
 import Loader from './Loader/Loader';
 import axios from 'axios';
-import LoadMoreBtn from './LoadMore/LoadMoreBtn';
-import ImageModal from './Modal/ImageModal';
+import LoadMoreBtn from './LoadMoreBtn/LoadMoreBtn';
+import ImageModal from './ImageModal/ImageModal';
 
 const App = () => {
     const [photos, setPhotos] = useState([]);
